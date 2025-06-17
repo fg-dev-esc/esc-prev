@@ -97,11 +97,9 @@ ESCOTEL es una plataforma web moderna que presenta los servicios de asistencia m
 python -m http.server 8000
 ```
 
-
-# ESCOTEL® 
-
-**Desarrollado por:**  
-Luis Felipe Fernández  
-
 ---
+ Desarrollado por:  
+## Luis Felipe Fernández  
+
+
 *© 2025 ESCOTEL® - Todos los derechos reservados*
