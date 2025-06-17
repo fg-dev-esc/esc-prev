@@ -31,7 +31,8 @@ function loadLogosSection(basePath = '') {
             <img src="${basePath}assets/img/logos/bbva.png" alt="BBVA">
           </div>
           <div class="logo-item">
-            <img src="${basePath}assets/img/logos/bnp.png" alt="BNP">
+            
+            <img src="${basePath}assets/img/logos/santander.png" alt="Santander">
           </div>
           <div class="logo-item">
             <img src="${basePath}assets/img/logos/brove.png" alt="Brove">
@@ -85,7 +86,7 @@ function loadLogosSection(basePath = '') {
             <img src="${basePath}assets/img/logos/sanofi.png" alt="Sanofi">
           </div>
           <div class="logo-item">
-            <img src="${basePath}assets/img/logos/santander.png" alt="Santander">
+            <img src="${basePath}assets/img/logos/bnp.png" alt="BNP">
           </div>
           <div class="logo-item">
             <img src="${basePath}assets/img/logos/scotiabank.png" alt="Scotiabank">
@@ -98,6 +99,9 @@ function loadLogosSection(basePath = '') {
           </div>
           <div class="logo-item">
             <img src="${basePath}assets/img/logos/zion.png" alt="Zion">
+          </div>
+          <div class="logo-item">
+            <img src="${basePath}assets/img/logos/brove.png" alt="Brove">
           </div>
         </div>
       </div>

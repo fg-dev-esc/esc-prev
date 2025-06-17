@@ -1,10 +1,9 @@
-// navbar.js - Loader para el Navbar Unificado de ESCOTEL
 function loadNavbar(basePath = '') {
   const navbarHTML = `
     <nav class="navbar navbar-expand-lg navbar-unified">
       <div class="container-fluid">
         <a class="navbar-brand font-weight-bolder" href="https://www.escotel.com.mx" target="_blank">
-          <img src="${basePath}https://www.escotel.com.mx/images/logo@2x.png" alt="Escotel Logo">
+          <img src="https://www.escotel.com.mx/images/logo@2x.png" alt="Escotel Logo">
         </a>
         
         <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" 
