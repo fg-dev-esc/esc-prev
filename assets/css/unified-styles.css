@@ -98,7 +98,6 @@
 
 /* Dropdown menus */
 .navbar-unified .dropdown-menu {
-  background: var(--card-bg);
   backdrop-filter: blur(var(--blur-amount));
   -webkit-backdrop-filter: blur(var(--blur-amount));
   border: 1px solid var(--border-light);
