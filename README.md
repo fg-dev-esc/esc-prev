@@ -52,7 +52,7 @@ ESCOTEL es una plataforma web moderna que presenta los servicios de asistencia m
 - **Google Fonts (Inter)** - Tipografía web optimizada
 
 ### Librerías JavaScript
-- **Popper.js** - Posicionamiento de tooltips y dropdowns
+- **Popper.js** - Posicionamiento de dropdowns
 - **Perfect Scrollbar** - Barras de desplazamiento personalizadas
 - **CountUp.js** - Animaciones de contadores numéricos
 
