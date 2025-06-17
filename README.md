@@ -1,119 +1,107 @@
-# Mapa de Sitio Web ESCOTEL
-## Estructura Completa de Navegación y Contenido
+#  ESCOTEL - Sitio Web Corporativo
 
-### **INICIO**
-- **Contenido Principal:**
-  - Slogan: "Excelencia en Asistencia"
-  - "Estamos Contigo EN LA PLENITUD DE TU VIDA"
-  - "Estamos Contigo EN LA PROTECCIÓN DE TU SALUD"
-  - Estadísticas de cobertura:
-    - 450,000 llamadas anuales
-    - 2,000,000 de personas cubiertas
-    - 50,000 hogares
-    - 5 Continentes
+Sitio web corporativo para ESCOTEL, empresa especializada en servicios de asistencia integral y soluciones de contact center.
 
----
+##  Descripción
 
-### **FORTALEZAS**
-#### Subsecciones:
-- **Visión / Misión**
-- **Política de Calidad**
-- **Trabajo en Equipo**
-- **Certificaciones**
-- **Clientes**
-- **Industrias**
+ESCOTEL es una plataforma web moderna que presenta los servicios de asistencia médica, vial, en el hogar y más. El sitio cuenta con un diseño responsivo con efectos de glassmorfismo y animaciones.
 
-**Mensaje Principal:** 
-- "NUESTRA RAZÓN de SER es por LAS PERSONAS"
-- "ES LA COMUNICACIÓN PERSONAL CON EL MUNDO ENTERO"
-- "VIVIMOS PARA ELLO, Y LO HACEMOS PROFESIONALMENTE"
+##  Estructura del Proyecto
 
----
-
-### **SOLUCIONES**
-#### Categorías Principales:
-
-#### **CALL CENTER**
-- **Centro de Contacto Telefónico**
-
-#### **ASISTENCIA** (Servicios Principales)
-1. **Asistencia en el Hogar**
-2. **Asistencia Vial**
-3. **Asistencia en Viajes**
-4. **Asistencia Médica**
-5. **Asistencia Legal**
-6. **Asistencia Técnica**
-7. **Prevención Salud**
-8. **Asistencia en Viajes Internacionales**
-9. **Asistencia Migrante**
-10. **Seguridad Bancaria**
-11. **Asistencia Funeraria**
-12. **Asistencia Educativa**
-13. **Asistencia Mascota**
-14. **Asistencia Fraude**
-15. **Soporte Técnico**
-16. **Oficina Virtual**
-17. **Gestoría Administrativa**
-18. **Asistencia Senior (3° edad)**
-19. **Servicios en Campo**
-
----
-
-### **ÚNETE**
-*Sección para incorporación de nuevos colaboradores*
-
----
-
-### **NUEVOS NEGOCIOS**
-#### Subsecciones:
-- **Affinity Sponsoring**
-- **Unidades de Negocio**
-- **Contacto**
-
----
-
-### **CONTACTO**
-- **Teléfono Principal:** 55 5337 3400
-- Llamada a la acción: "Llama AHORA"
-
----
-
-## **Servicios Destacados en Homepage**
-
-### **Asistencia Médica**
-- Enlace: "ver más"
-
-### **Asistencia Vial** 
-- Enlace: "ver más"
-
-### **Más Soluciones**
-- Enlace: "ver todas"
-
----
-
-## **Elementos de Navegación**
-
-### **Menú Principal (Header)**
 ```
-INICIO | FORTALEZAS | SOLUCIONES | ÚNETE | NUEVOS NEGOCIOS
+/
+├── index.html                 
+├── assets/
+│   ├── css/                   
+│   │   ├── unified-styles.css 
+│   │   ├── index.css         
+│   │   ├── contacto.css      
+│   │   ├── fortalezas.css    
+│   │   ├── soluciones.css    
+│   │   ├── nuevos-negocios.css 
+│   │   └── unete.css         
+│   ├── js/                   
+│   │   ├── main.js           
+│   │   ├── index.js          
+│   │   ├── fortalezas.js     
+│   │   └── nuevos-negocios.js 
+│   └── img/                  
+├── pages/                    
+│   ├── contacto.html
+│   ├── fortalezas.html
+│   ├── soluciones.html
+│   ├── nuevos-negocios.html
+│   ├── unete.html
+│   └── template.html
+└── components/            
+    ├── navbar.js            
+    └── footer.js           
 ```
 
+##  Tecnologías Utilizadas
+
+### Frontend Core
+- **HTML5** - Estructura semántica
+- **CSS3** - Estilos modernos con efectos
+- **JavaScript (ES6+)** - Interactividad y funcionalidad
+
+### Librerías CSS y UI
+- **Material Symbols** - Iconografía moderna de Google
+- **Nucleo Icons** - Set de iconos vectoriales
+- **Font Awesome** - Iconos adicionales
+- **Google Fonts (Inter)** - Tipografía web optimizada
+
+### Librerías JavaScript
+- **Popper.js** - Posicionamiento de tooltips y dropdowns
+- **Perfect Scrollbar** - Barras de desplazamiento personalizadas
+- **CountUp.js** - Animaciones de contadores numéricos
+
+### Diseño y UX
+- **Responsive Design** - Adaptable a todos los dispositivos
+- **Accessibility (WCAG)** - Cumplimiento de estándares de accesibilidad
+
+### Herramientas de Desarrollo
+- **CSS Variables** - Sistema de diseño escalable
+- **Modular JavaScript** - Arquitectura de componentes
+
+### Servicios Externos
+- **Google Maps Embed** - Mapas integrados
+- **Google Fonts** - Carga optimizada de fuentes
+- **Cloudflare CDN** - Entrega rápida de recursos
+
+### Características Especiales
+- **Glassmorphism Design** - Efectos de vidrio
+- **Smooth Scrolling** - Navegación fluida
+- **Lazy Loading** - Carga de imágenes
+- **Dynamic Components** - Navbar y footer reutilizables
+
+##  Páginas
+
+1. **Inicio** - Presentación principal con slider
+2. **Fortalezas** - Política de calidad, certificaciones
+3. **Soluciones** - Servicios de asistencia detallados
+4. **Nuevos Negocios** - Affinity Sponsoring y E-Commerce
+5. **Únete** - Formulario de colaboradores
+6. **Contacto** - Información de contacto y mapa
+
+
+##  Instalación y Uso
+
+1. Clona o descarga el proyecto
+2. Abre `index.html` en tu navegador
+3. Para desarrollo, usa un servidor local (Live Server, XAMPP, etc.)
+
+```bash
+# Usando Live Server (VS Code)
+# O cualquier servidor HTTP local
+python -m http.server 8000
+```
+
+
+# ESCOTEL® 
+
+**Desarrollado por:**  
+Luis Felipe Fernández  
+
 ---
-
-## **Propuesta de Valor Principal**
-**"Asistencia en todo momento"** - Tagline principal del sitio
-
-### **Pilares de Comunicación:**
-1. **Plenitud de Vida** - Enfoque en calidad de vida
-2. **Protección de Salud** - Servicios médicos y preventivos
-3. **Comunicación Global** - Cobertura internacional
-4. **Profesionalismo** - Experiencia y calidad en servicios
-
----
-
-## **Información de Contacto**
-- **Teléfono:** 55 5337 3400
-- **Sitio Web:** escotel.com.mx
-- **Cobertura:** Internacional (5 continentes)
-
----
+*© 2025 ESCOTEL® - Todos los derechos reservados*
