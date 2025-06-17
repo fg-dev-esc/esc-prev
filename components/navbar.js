@@ -16,106 +16,30 @@ function loadNavbar(basePath = '') {
           </span>
         </button>
         
-        <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+        <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100 navbar-solid" id="navigation">
           <ul class="navbar-nav navbar-nav-hover ms-auto">
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}index.html">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">home</i>Inicio
               </a>
             </li>
             
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link d-flex cursor-pointer align-items-center" 
-                 id="dropdownMenuFortalezas" data-bs-toggle="dropdown" aria-expanded="false" 
-                 href="${basePath}pages/fortalezas.html"
-                 onclick="window.location.href='${basePath}pages/fortalezas.html'">
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}pages/fortalezas.html">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">psychology</i>Fortalezas
-                <img src="${basePath}assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
               </a>
-              <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3"
-                   aria-labelledby="dropdownMenuFortalezas">
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Visión / Misión</span></a>
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Política de Calidad</span></a>
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Trabajo en Equipo</span></a>
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Certificaciones</span></a>
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Clientes</span></a>
-                <a class="dropdown-item border-radius-md" href="${basePath}pages/fortalezas.html"><span>Industrias</span></a>
-              </div>
             </li>
             
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link d-flex cursor-pointer align-items-center"
-                 id="dropdownMenuSoluciones" data-bs-toggle="dropdown" aria-expanded="false" 
-                 href="${basePath}pages/soluciones.html"
-                 onclick="window.location.href='${basePath}pages/soluciones.html'">
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}pages/soluciones.html">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>Soluciones
-                <img src="${basePath}assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
               </a>
-              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3"
-                  aria-labelledby="dropdownMenuSoluciones">
-                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
-                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="${basePath}pages/soluciones.html">
-                    <div>
-                      <h6 class="dropdown-header text-dark font-weight-bolder p-0">Call Center</h6>
-                      <span class="text-sm">Centro de Contacto Telefónico</span>
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item dropdown dropdown-hover dropdown-subitem">
-                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="${basePath}pages/soluciones.html">
-                    <div>
-                      <h6 class="dropdown-header text-dark font-weight-bolder p-0">Asistencia</h6>
-                      <span class="text-sm">Servicios integrales de asistencia</span>
-                    </div>
-                  </a>
-                  <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia en el Hogar</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Vial</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia en Viajes</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Médica</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Legal</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Técnica</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Prevención Salud</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia en Viajes Internacionales</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Migrante</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Seguridad Bancaria</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Funeraria</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Educativa</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Mascota</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Fraude</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Soporte Técnico</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Oficina Virtual</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Gestoría Administrativa</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Asistencia Senior (3° edad)</a>
-                    <a class="dropdown-item ps-3 border-radius-md mb-1" href="${basePath}pages/soluciones.html">Servicios en Campo</a>
-                  </div>
-                </li>
-              </ul>
             </li>
             
-            <li class="nav-item dropdown dropdown-hover mx-2">
-              <a class="nav-link d-flex cursor-pointer align-items-center"
-                 id="dropdownMenuNuevosNegocios" data-bs-toggle="dropdown" aria-expanded="false" 
-                 href="${basePath}pages/nuevos-negocios.html"
-                 onclick="window.location.href='${basePath}pages/nuevos-negocios.html'">
+            <li class="nav-item mx-2">
+              <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}pages/nuevos-negocios.html">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">business_center</i>Nuevos Negocios
-                <img src="${basePath}assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
               </a>
-              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive mt-0 mt-lg-3 p-3 border-radius-lg"
-                  aria-labelledby="dropdownMenuNuevosNegocios">
-                <li class="nav-item list-group-item border-0 p-0">
-                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="${basePath}pages/nuevos-negocios.html">
-                    <h6 class="dropdown-header text-dark font-weight-bolder p-0">Affinity Sponsoring</h6>
-                    <span class="text-sm">Programas de patrocinio</span>
-                  </a>
-                </li>
-                <li class="nav-item list-group-item border-0 p-0">
-                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="${basePath}pages/nuevos-negocios.html">
-                    <h6 class="dropdown-header text-dark font-weight-bolder p-0">Unidades de Negocio</h6>
-                    <span class="text-sm">Divisiones especializadas</span>
-                  </a>
-                </li>
-              </ul>
             </li>
             
             <li class="nav-item mx-2">

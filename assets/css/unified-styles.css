@@ -42,12 +42,16 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: var(--glass-bg);
-  backdrop-filter: blur(var(--blur-amount));
-  -webkit-backdrop-filter: blur(var(--blur-amount));
+  /* Cambiar de glass-bg a color sólido */
+  background: #ffffff; /* O el color que prefieras */
+  /* Remover backdrop-filter para eliminar el efecto glass */
+  /* backdrop-filter: blur(var(--blur-amount)); */
+  /* -webkit-backdrop-filter: blur(var(--blur-amount)); */
   border-bottom: 1px solid var(--border-light);
   transition: var(--transition-smooth);
   padding: 0;
+  /* Agregar sombra para mejor definición */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-unified .container-fluid {
@@ -96,13 +100,15 @@
   opacity: 1;
 }
 
-/* Dropdown menus */
+/* Dropdown menus - también hacer sólidos */
 .navbar-unified .dropdown-menu {
-  backdrop-filter: blur(var(--blur-amount));
-  -webkit-backdrop-filter: blur(var(--blur-amount));
+  background: #ffffff; /* Color sólido en lugar de glass */
+  /* Remover backdrop-filter */
+  /* backdrop-filter: blur(var(--blur-amount)); */
+  /* -webkit-backdrop-filter: blur(var(--blur-amount)); */
   border: 1px solid var(--border-light);
   border-radius: var(--radius-medium);
-  box-shadow: var(--shadow-glass);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra más prominente */
   padding: 8px;
   margin-top: 8px;
 }
@@ -159,6 +165,51 @@
 .navbar-unified .btn-contact:hover::before {
   left: 100%;
 }
+
+/* Responsive - hacer sólido también en móviles */
+@media (max-width: 991.98px) {
+  .navbar-unified .navbar-collapse {
+    background: #ffffff !important;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border-light);
+  }
+}
+
+/* Alternativas de color si prefieres algo diferente a blanco */
+/*
+Para un fondo gris claro:
+.navbar-unified {
+  background: #f8f9fa;
+}
+
+.navbar-unified .dropdown-menu {
+  background: #f8f9fa;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-unified .navbar-collapse {
+    background: #f8f9fa !important;
+  }
+}
+
+Para un fondo con el color de tu marca:
+.navbar-unified {
+  background: #826768; (tu color principal)
+}
+
+.navbar-unified .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-unified .dropdown-menu {
+  background: #826768;
+}
+*/
+
+  
 
 /* ========================================
    SECCIÓN DE LOGOS UNIFICADA
@@ -601,7 +652,7 @@
     border-bottom-left-radius: var(--radius-medium);
     border-bottom-right-radius: var(--radius-medium);
     z-index: 999;
-    padding: 16px 24px 8px 24px;
+    padding: 36px 44px 28px 44px;
     animation: fadeInDown 0.3s;
   }
   .navbar-unified .navbar-collapse.show {
