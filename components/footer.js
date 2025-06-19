@@ -162,10 +162,10 @@ function loadFooter(basePath = '') {
             <div class="footer-section" style="padding-top: 0.5rem;">
               <h6 class="footer-title mb-3" style="font-size: 0.95rem;">Servicios</h6>
               <ul class="footer-links list-unstyled" style="font-size: 0.85rem;">
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Call Center</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia en el Hogar</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia Vial</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia Médica</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Call Center</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia en el Hogar</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia Vial</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia Médica</a></li>
               </ul>
             </div>
           </div>
@@ -175,10 +175,10 @@ function loadFooter(basePath = '') {
             <div class="footer-section" style="padding-top: 0.5rem;">
               <h6 class="footer-title mb-3" style="font-size: 0.95rem;">Soluciones</h6>
               <ul class="footer-links list-unstyled" style="font-size: 0.85rem;">
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia en Viajes</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia Legal</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Asistencia Técnica</a></li>
-                <li class="mb-2"><a href="https://www.escotel.com.mx/" target="_blank" class="footer-link">Prevención Salud</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia en Viajes</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Prevención Salud</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia Legal</a></li>
+                <li class="mb-2"><a href="./soluciones.html" class="footer-link">Asistencia Técnica</a></li>
               </ul>
             </div>
           </div>
@@ -188,10 +188,10 @@ function loadFooter(basePath = '') {
             <div class="footer-section" style="padding-top: 0.5rem;">
               <h6 class="footer-title mb-3" style="font-size: 0.95rem;">Empresa</h6>
               <ul class="footer-links list-unstyled" style="font-size: 0.85rem;">
-                <li class="mb-2"><a class="footer-link" href="${basePath}pages/fortalezas.html">Acerca de Nosotros</a></li>
-                <li class="mb-2"><a class="footer-link" href="${basePath}pages/fortalezas.html">Fortalezas</a></li>
-                <li class="mb-2"><a class="footer-link" href="${basePath}pages/fortalezas.html">Certificaciones</a></li>
-                <li class="mb-2"><a class="footer-link" href="${basePath}pages/fortalezas.html">Clientes</a></li>
+                <li class="mb-2"><a class="footer-link" href="./fortalezas.html">Acerca de Nosotros</a></li>
+                <li class="mb-2"><a class="footer-link" href="./fortalezas.html">Fortalezas</a></li>
+                <li class="mb-2"><a class="footer-link" href="./fortalezas.html">Certificaciones</a></li>
+                <li class="mb-2"><a class="footer-link" href="./fortalezas.html">Clientes</a></li>
               </ul>
             </div>
           </div>
