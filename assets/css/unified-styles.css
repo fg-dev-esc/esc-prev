@@ -110,7 +110,6 @@
   transform: translateX(2px);
 }
 
-/* Botón de contacto */
 .navbar-unified .btn-contact {
   background: var(--accent-gradient);
   color: white !important;

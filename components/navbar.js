@@ -45,7 +45,6 @@ function loadNavbar(basePath = '') {
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">view_list</i>Ver todos
                       </a>
-                      <div class="dropdown-divider my-2"></div>
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-vial">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">car_repair</i>Asistencia Vial
                       </a>
@@ -71,43 +70,39 @@ function loadNavbar(basePath = '') {
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#prevencion-salud">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">health_and_safety</i>Prevención y Salud
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#soporte-tecnico">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">support</i>Soporte Técnico
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-viajes-internacionales">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">public</i>Asistencia en Viajes
                       </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-migrante">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">group</i>Asistencia Migrante
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#seguridad-bancaria">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">security</i>Seguridad Bancaria
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-funeraria">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">local_florist</i>Asistencia Funeraria
+                      </a>
+                    </div>
+                    <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-educativa">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">school</i>Asistencia Educativa
                       </a>
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-mascota">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">pets</i>Asistencia Mascota
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#oficina-virtual">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">cloud</i>Oficina Virtual
-                      </a>
-                    </div>
-                    
-                    <!-- columna 3 -->
-                    <div class="col-lg-3 mb-3">
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#seguridad-bancaria">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">security</i>Seguridad Bancaria
-                      </a>
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-fraude">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">shield</i>Asistencia Fraude
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#viajes-internacionales">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">public</i>Viajes Internacionales
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#soporte-tecnico">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">support</i>Soporte Técnico
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-migrante">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">group</i>Asistencia Migrante
-                      </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-funeraria">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">local_florist</i>Asistencia Funeraria
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#oficina-virtual">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">cloud</i>Oficina Virtual
                       </a>
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#gestoria-administrativa">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">description</i>Gestoría Administrativa
                       </a>
                     </div>
-                    
-                    <!-- columna 4 -->
                     <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-senior">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">elderly</i>Asistencia Senior
@@ -115,14 +110,14 @@ function loadNavbar(basePath = '') {
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#servicios-campo">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">work</i>Servicios en Campo
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#centro-contacto">
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#centro-contacto-telefonico">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">call</i>Centro de Contacto
                       </a>
                       
                       <!-- imagen destacada -->
-                      <div class="mt-3 text-center">
-                        <img src="../assets/img/cloud-word.png" alt="Soluciones ESCOTEL" class="img-fluid rounded shadow-sm" style="max-height: 120px; object-fit: contain;">
-                        <p class="small text-muted mt-2 mb-0">Soluciones 24/7</p>
+                      <div class="mt-1 text-center">
+                        <img src="../assets/img/iso-9001-2015.jpg" alt="Soluciones ESCOTEL" class="img-fluid rounded shadow-sm" style="max-height: 120px; object-fit: contain;">
+                        <p class="small text-muted mt-2 mb-0"></p>
                       </div>
                     </div>
                   </div>
@@ -198,4 +193,4 @@ if (document.readyState === 'loading') {
   const isInPages = window.location.pathname.includes('/pages/');
   const basePath = isInPages ? '../' : '';
   loadNavbar(basePath);
-} 
+}
