@@ -80,7 +80,7 @@ function loadLogosSection(basePath = '') {
             <img src="${basePath}assets/img/logos/qualitas.png" alt="Qualitas">
           </div>
           <div class="logo-item">
-            <img src="${basePath}assets/img/logos/raul.png" alt="Raul">
+            <img src="${basePath}assets/img/logos/logo-hdi.jpg" alt="Raul">
           </div>
           <div class="logo-item">
             <img src="${basePath}assets/img/logos/sanofi.png" alt="Sanofi">
@@ -101,7 +101,7 @@ function loadLogosSection(basePath = '') {
             <img src="${basePath}assets/img/logos/zion.png" alt="Zion">
           </div>
           <div class="logo-item">
-            <img src="${basePath}assets/img/logos/brove.png" alt="Brove">
+            <img src="${basePath}assets/img/logos/el-aguila.png" alt="Brove">
           </div>
         </div>
       </div>
@@ -246,42 +246,36 @@ function loadFooter(basePath = '') {
     </footer>
   `;
 
-  // Insertar footer en el contenedor
+  // insertar footer en el contenedor
   const footerContainer = document.getElementById('footer-container');
   if (footerContainer) {
     footerContainer.innerHTML = footerHTML;
     
-    // Actualizar año de copyright
     updateCopyrightYear();
     
-    // Configurar animaciones del footer
     setupFooterAnimations();
     
-    console.log('✅ Footer moderno cargado correctamente');
+    console.log('footer cargado correctamente');
   } else {
-    console.error('❌ Error: No se encontró el contenedor #footer-container');
+    console.error('error: No se encontró el contenedor #footer-container');
   }
 }
 
 function loadLogosAndFooter(basePath = '') {
-  // Cargar sección de logos
   const logosContainer = document.getElementById('logos-container');
   if (logosContainer) {
     logosContainer.innerHTML = loadLogosSection(basePath);
     
-    // Configurar animaciones de logos
     setupLogosAnimations();
     
-    console.log('✅ Logos cargados correctamente');
+    console.log('logos cargados correctamente');
   } else {
-    console.error('❌ Error: No se encontró el contenedor #logos-container');
+    console.error('error: No se encontró el contenedor #logos-container');
   }
 
-  // Cargar footer
   loadFooter(basePath);
 }
 
-// Función para actualizar el año de copyright
 function updateCopyrightYear() {
   const copyrightYear = document.getElementById('copyright-year');
   if (copyrightYear) {
@@ -289,9 +283,7 @@ function updateCopyrightYear() {
   }
 }
 
-// Función para configurar animaciones del footer
 function setupFooterAnimations() {
-  // Animación de aparición para elementos del footer
   const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -306,7 +298,6 @@ function setupFooterAnimations() {
     });
   }, observerOptions);
 
-  // Aplicar observador a elementos del footer con retraso escalonado
   const footerElements = document.querySelectorAll('.footer-section, .footer-brand');
   footerElements.forEach((el, index) => {
     el.style.opacity = '0';
@@ -315,7 +306,6 @@ function setupFooterAnimations() {
     observer.observe(el);
   });
 
-  // Efectos de hover mejorados para enlaces sociales
   const socialIcons = document.querySelectorAll('.social-icon');
   socialIcons.forEach(icon => {
     icon.addEventListener('mouseenter', function() {
@@ -327,7 +317,6 @@ function setupFooterAnimations() {
     });
   });
 
-  // Efectos de hover para enlaces del footer
   const footerLinks = document.querySelectorAll('.footer-link');
   footerLinks.forEach(link => {
     link.addEventListener('mouseenter', function() {
@@ -340,17 +329,14 @@ function setupFooterAnimations() {
   });
 }
 
-// Función para configurar animaciones de logos
 function setupLogosAnimations() {
   const logoItems = document.querySelectorAll('.logo-item');
   
   logoItems.forEach((item, index) => {
-    // Animación de entrada escalonada
     item.style.opacity = '0';
     item.style.transform = 'scale(0.8) translateY(20px)';
     item.style.transition = `all 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.05}s`;
     
-    // Efectos de hover mejorados
     item.addEventListener('mouseenter', function() {
       this.style.transform = 'translateY(-8px) scale(1.05)';
       this.style.boxShadow = 'var(--shadow-heavy)';
@@ -361,7 +347,6 @@ function setupLogosAnimations() {
       this.style.boxShadow = 'var(--shadow-medium)';
     });
     
-    // Activar animación cuando sea visible
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -376,16 +361,13 @@ function setupLogosAnimations() {
   });
 }
 
-// Auto-ejecutar cuando el DOM esté listo
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-    // Detectar si estamos en el root o en pages/
     const isInPages = window.location.pathname.includes('/pages/');
     const basePath = isInPages ? '../' : '';
     loadLogosAndFooter(basePath);
   });
 } else {
-  // Detectar si estamos en el root o en pages/
   const isInPages = window.location.pathname.includes('/pages/');
   const basePath = isInPages ? '../' : '';
   loadLogosAndFooter(basePath);

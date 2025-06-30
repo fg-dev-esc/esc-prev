@@ -1,5 +1,3 @@
-/* Estilos específicos para index.html */
-
 /* Hero Section */
 .slider-container {
     position: relative;
@@ -33,6 +31,22 @@
     z-index: 2;
 }
 
+/* Slider backgrounds */
+.slide-bg-1 {
+  background-image: url('https://www.usat.edu.pe/web/wp-content/uploads/2023/01/la-familia.jpg');
+}
+.slide-bg-2 {
+  background-image: url('https://cdn2.hubspot.net/hubfs/533390/Blogs_Fotos/Familia_y_Sociedad/Familia-Hospitalidad.jpg');
+}
+.slide-bg-3 {
+  background-image: url('https://chilepsicologos.cl/wp-content/uploads/2024/04/familia-1-scaledfamiliacrisis-de-familia-scaledfamilias-felices-scaled-1.jpg');
+}
+
+/* Margin top for slider container */
+.mt-70 {
+  margin-top: 70px;
+}
+
 /* Card Services */
 .card-service {
     transition: all 0.5s var(--transition-timing);
@@ -53,8 +67,11 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.8; /* Aumentado de 0.3 a 0.8 para más opacidad */
     transition: var(--transition-standard);
+    /* Añadir overlay oscuro */
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay oscuro */
 }
 
 .card-service:hover {
@@ -63,8 +80,55 @@
 }
 
 .card-service:hover .card-bg {
-    opacity: 0.5;
+    opacity: 0.9; /* Aumentado de 0.5 a 0.9 */
     transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.9); /* Más oscuro en hover */
+}
+
+/* Cambiar el texto a blanco en las tarjetas de servicios */
+.card-service .card-content h3 {
+    color: white !important; /* Títulos en blanco */
+}
+
+.card-service .card-content p {
+    color: rgba(255, 255, 255, 0.9) !important; /* Descripción en blanco con opacidad */
+}
+
+.card-service .card-content a {
+    color: rgba(255, 255, 255, 0.95) !important; /* Enlaces en blanco */
+    font-weight: 600;
+}
+
+.card-service .card-content a:hover {
+    color: white !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Íconos también en blanco */
+.card-service .card-content i.material-symbols-rounded {
+    color: white !important;
+}
+
+/* Card backgrounds for services */
+.card-bg-1 .card-bg {
+  background-image: url('https://quanticoservicios.net/wp-content/uploads/2023/02/atencion_medica_local.jpg');
+  position: absolute; inset: 0; z-index: 1; opacity: 1;
+}
+.card-bg-2 .card-bg {
+  background-image: url('https://www.rastreator.mx/wp-content/uploads/asistencia-vial-hdi.png');
+  position: absolute; inset: 0; z-index: 1; opacity: 1;
+}
+.card-bg-3 .card-bg {
+  background-image: url('https://pastorjonatan.com/wp-content/uploads/2019/10/ingredientes-para-una-familia-feliz.jpg');
+  position: absolute; inset: 0; z-index: 1; opacity: 1;
+}
+
+.card-bg span {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: 2;
+  display: block;
 }
 
 /* Statistics Section */

@@ -30,9 +30,111 @@ function loadNavbar(basePath = '') {
               </a>
             </li>
             
-            <li class="nav-item mx-2">
+            <!-- Versión Desktop - Con Dropdown -->
+            <li class="nav-item dropdown mega-dropdown mx-2 d-none d-lg-block" id="soluciones-desktop">
+              <a class="nav-link d-flex cursor-pointer align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>
+                Soluciones
+                <i class="material-symbols-rounded opacity-6 ms-2 text-md">keyboard_arrow_down</i>
+              </a>
+              <div class="dropdown-menu mega-menu p-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <!-- Columna 1 -->
+                    <div class="col-lg-3 mb-3">
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">view_list</i>Ver todos
+                      </a>
+                      <div class="dropdown-divider my-2"></div>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-vial">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">car_repair</i>Asistencia Vial
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-medica">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">medical_services</i>Asistencia Médica
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-hogar">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">home</i>Asistencia en el Hogar
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-viajes">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">flight</i>Asistencia en Viajes
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-legal">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">gavel</i>Asistencia Legal
+                      </a>
+                    </div>
+                    
+                    <!-- Columna 2 -->
+                    <div class="col-lg-3 mb-3">
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-tecnica">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">computer</i>Asistencia Técnica
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#prevencion-salud">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">health_and_safety</i>Prevención y Salud
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#soporte-tecnico">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">support</i>Soporte Técnico
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-educativa">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">school</i>Asistencia Educativa
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-mascota">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">pets</i>Asistencia Mascota
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#oficina-virtual">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">cloud</i>Oficina Virtual
+                      </a>
+                    </div>
+                    
+                    <!-- Columna 3 -->
+                    <div class="col-lg-3 mb-3">
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#seguridad-bancaria">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">security</i>Seguridad Bancaria
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-fraude">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">shield</i>Asistencia Fraude
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#viajes-internacionales">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">public</i>Viajes Internacionales
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-migrante">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">group</i>Asistencia Migrante
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-funeraria">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">local_florist</i>Asistencia Funeraria
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#gestoria-administrativa">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">description</i>Gestoría Administrativa
+                      </a>
+                    </div>
+                    
+                    <!-- Columna 4 -->
+                    <div class="col-lg-3 mb-3">
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-senior">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">elderly</i>Asistencia Senior
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#servicios-campo">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">work</i>Servicios en Campo
+                      </a>
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#centro-contacto">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">call</i>Centro de Contacto
+                      </a>
+                      
+                      <!-- Imagen destacada -->
+                      <div class="mt-3 text-center">
+                        <img src="../assets/img/cloud-word.png" alt="Soluciones ESCOTEL" class="img-fluid rounded shadow-sm" style="max-height: 120px; object-fit: contain;">
+                        <p class="small text-muted mt-2 mb-0">Soluciones 24/7</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Versión Mobile - Sin Dropdown -->
+            <li class="nav-item mx-2 d-lg-none" id="soluciones-mobile">
               <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}pages/soluciones.html">
-                <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>Soluciones
+                <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>
+                Soluciones
               </a>
             </li>
             
@@ -57,28 +159,25 @@ function loadNavbar(basePath = '') {
     </nav>
   `;
 
-  // Insertar navbar en el contenedor
+  // insertar navbar en el contenedor
   const navbarContainer = document.getElementById('navbar-container');
   if (navbarContainer) {
     navbarContainer.innerHTML = navbarHTML;
     
-    // Configurar auto-cierre del menú móvil
     setupMobileNavigation();
     
-    console.log('✅ Navbar cargado correctamente');
+    console.log('navbar cargado correctamente');
   } else {
-    console.error('❌ Error: No se encontró el contenedor #navbar-container');
+    console.error('error: no se encontró el contenedor #navbar-container');
   }
 }
 
-// Función para configurar la navegación móvil
 function setupMobileNavigation() {
   const navbarToggler = document.querySelector('.navbar-toggler');
   const navbarCollapse = document.querySelector('.navbar-collapse');
   
   if (navbarToggler && navbarCollapse) {
-    // Cerrar menu al hacer click en un enlace (mobile)
-    const navLinks = navbarCollapse.querySelectorAll('.nav-link');
+    const navLinks = navbarCollapse.querySelectorAll('.nav-link, .dropdown-item');
     navLinks.forEach(link => {
       link.addEventListener('click', () => {
         if (window.innerWidth < 992) {
@@ -89,17 +188,14 @@ function setupMobileNavigation() {
   }
 }
 
-// Auto-ejecutar si estamos en el índice
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
-    // Detectar si estamos en el root o en pages/
     const isInPages = window.location.pathname.includes('/pages/');
     const basePath = isInPages ? '../' : '';
     loadNavbar(basePath);
   });
 } else {
-  // Detectar si estamos en el root o en pages/
   const isInPages = window.location.pathname.includes('/pages/');
   const basePath = isInPages ? '../' : '';
   loadNavbar(basePath);
-}
+} 

@@ -1,10 +1,4 @@
-/* ========================================
-   ESCOTEL - ESTILOS UNIFICADOS
-   Inspirado en el diseño de Vercel/Apple
-   ======================================== */
-
 :root {
-  /* Paleta de colores unificada basada en contacto.css */
   --primary-bg: #F5F3F2;
   --secondary-bg: #ABABAD;
   --card-bg: rgba(245, 243, 242, 0.7);
@@ -16,7 +10,6 @@
   --border-medium: rgba(130, 103, 104, 0.2);
   --accent-gradient: linear-gradient(135deg, #826768 0%, #A2948A 100%);
   
-  /* Sombras unificadas */
   --shadow-light: 0 4px 16px rgba(130, 103, 104, 0.05);
   --shadow-medium: 0 8px 32px rgba(130, 103, 104, 0.1);
   --shadow-heavy: 0 16px 64px rgba(130, 103, 104, 0.15);
@@ -24,7 +17,6 @@
                   0 4px 16px rgba(130, 103, 104, 0.05), 
                   inset 0 1px 0 rgba(255, 255, 255, 0.1);
   
-  /* Transiciones y efectos */
   --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --radius-medium: 12px;
@@ -32,9 +24,8 @@
   --blur-amount: 20px;
 }
 
-/* ========================================
-   NAVBAR UNIFICADO
-   ======================================== */
+/*    
+*/
 
 .navbar-unified {
   position: fixed;
@@ -42,15 +33,10 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  /* Cambiar de glass-bg a color sólido */
-  background: #ffffff; /* O el color que prefieras */
-  /* Remover backdrop-filter para eliminar el efecto glass */
-  /* backdrop-filter: blur(var(--blur-amount)); */
-  /* -webkit-backdrop-filter: blur(var(--blur-amount)); */
+  background: #ffffff; 
   border-bottom: 1px solid var(--border-light);
   transition: var(--transition-smooth);
   padding: 0;
-  /* Agregar sombra para mejor definición */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,15 +86,11 @@
   opacity: 1;
 }
 
-/* Dropdown menus - también hacer sólidos */
 .navbar-unified .dropdown-menu {
-  background: #ffffff; /* Color sólido en lugar de glass */
-  /* Remover backdrop-filter */
-  /* backdrop-filter: blur(var(--blur-amount)); */
-  /* -webkit-backdrop-filter: blur(var(--blur-amount)); */
+  background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-medium);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra más prominente */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   padding: 8px;
   margin-top: 8px;
 }
@@ -166,7 +148,6 @@
   left: 100%;
 }
 
-/* Responsive - hacer sólido también en móviles */
 @media (max-width: 991.98px) {
   .navbar-unified .navbar-collapse {
     background: #ffffff !important;
@@ -177,43 +158,6 @@
     border: 1px solid var(--border-light);
   }
 }
-
-/* Alternativas de color si prefieres algo diferente a blanco */
-/*
-Para un fondo gris claro:
-.navbar-unified {
-  background: #f8f9fa;
-}
-
-.navbar-unified .dropdown-menu {
-  background: #f8f9fa;
-}
-
-@media (max-width: 991.98px) {
-  .navbar-unified .navbar-collapse {
-    background: #f8f9fa !important;
-  }
-}
-
-Para un fondo con el color de tu marca:
-.navbar-unified {
-  background: #826768; (tu color principal)
-}
-
-.navbar-unified .navbar-nav .nav-link {
-  color: white !important;
-}
-
-.navbar-unified .dropdown-menu {
-  background: #826768;
-}
-*/
-
-  
-
-/* ========================================
-   SECCIÓN DE LOGOS UNIFICADA
-   ======================================== */
 
 .logos-section-unified {
   background: var(--glass-bg);
@@ -294,7 +238,6 @@ Para un fondo con el color de tu marca:
   left: 100%;
 }
 
-/* Unificado: estilos para .logos-grid-unified .logo-item img */
 .logos-grid-unified .logo-item img {
   max-width: 100%;
   max-height: 100%;
@@ -310,10 +253,6 @@ Para un fondo con el color de tu marca:
   filter: grayscale(0%);
   transform: scale(1.05);
 }
-
-/* ========================================
-   FOOTER UNIFICADO
-   ======================================== */
 
 .footer-unified {
   background: linear-gradient(120deg, #f5f3f2 60%, #e7e2df 100%);
@@ -385,7 +324,8 @@ Para un fondo con el color de tu marca:
   max-width: 300px;
 }
 
-/* Enlaces sociales */
+/*
+*/
 .footer-unified .social-links {
   display: flex;
   gap: 16px;
@@ -406,7 +346,6 @@ Para un fondo con el color de tu marca:
   transition: color 0.3s ease;
 }
 
-/* Colores reales en hover para cada red social */
 .footer-unified .social-facebook:hover {
   color: #1877f2 !important;
 }
@@ -427,7 +366,6 @@ Para un fondo con el color de tu marca:
   color: #ff0000 !important;
 }
 
-/* Columnas del footer */
 .footer-unified .footer-section {
   flex: 1 1 180px;
   min-width: 160px;
@@ -494,7 +432,6 @@ Para un fondo con el color de tu marca:
   opacity: 1;
 }
 
-/* Información de contacto */
 .footer-unified .contact-info {
   flex: 1 1 260px;
   min-width: 220px;
@@ -541,7 +478,6 @@ Para un fondo con el color de tu marca:
   margin-top: 2px;
 }
 
-/* Copyright */
 .footer-unified .footer-bottom {
   margin-top: 60px;
   padding-top: 32px;
@@ -556,9 +492,8 @@ Para un fondo con el color de tu marca:
   margin: 0;
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-   ======================================== */
+/*
+*/
 
 @media (max-width: 1024px) {
   .logos-grid-unified {
@@ -639,7 +574,8 @@ Para un fondo con el color de tu marca:
   }
 }
 
-/* NAVBAR RESPONSIVE VANILLA */
+/*
+*/
 @media (max-width: 991.98px) {
   .navbar-unified .navbar-collapse {
     display: none;
@@ -685,9 +621,8 @@ Para un fondo con el color de tu marca:
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ========================================
-   ANIMACIONES MEJORADAS
-   ======================================== */
+/*
+*/
 
 @keyframes fadeInGlass {
   from {
@@ -735,7 +670,8 @@ Para un fondo con el color de tu marca:
   }
 }
 
-/* Aplicar animaciones */
+/* 
+*/
 .navbar-unified {
   animation: slideInFromTop 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -759,9 +695,8 @@ Para un fondo con el color de tu marca:
   animation: fadeInGlass 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ========================================
-   UTILIDADES ADICIONALES
-   ======================================== */
+/* 
+*/
 
 .glass-effect {
   background: var(--card-bg);
@@ -787,3 +722,42 @@ Para un fondo con el color de tu marca:
   background-clip: text;
 }
 
+/* Mega Menu Styles */
+.mega-dropdown .dropdown-menu {
+  min-width: 800px;
+  left: 0;
+  transform: none;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0,0,0,.1);
+  border-radius: 12px;
+}
+
+.mega-menu .dropdown-item {
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 2px 0;
+  text-decoration: none;
+}
+
+.mega-menu .dropdown-item:hover {
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  transform: translateX(5px);
+}
+
+.mega-menu .dropdown-item i {
+  color: var(--bs-primary) !important;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991px) {
+  .mega-dropdown .dropdown-menu {
+    min-width: auto;
+    left: auto;
+    transform: none;
+  }
+  
+  .mega-menu .row > div {
+    margin-bottom: 1rem;
+  }
+}
