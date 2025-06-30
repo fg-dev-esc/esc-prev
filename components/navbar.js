@@ -30,7 +30,7 @@ function loadNavbar(basePath = '') {
               </a>
             </li>
             
-            <!-- Versión Desktop - Con Dropdown -->
+            <!-- versión desktop - con dropdown -->
             <li class="nav-item dropdown mega-dropdown mx-2 d-none d-lg-block" id="soluciones-desktop">
               <a class="nav-link d-flex cursor-pointer align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>
@@ -40,7 +40,7 @@ function loadNavbar(basePath = '') {
               <div class="dropdown-menu mega-menu p-4">
                 <div class="container-fluid">
                   <div class="row">
-                    <!-- Columna 1 -->
+                    <!-- columna 1 -->
                     <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">view_list</i>Ver todos
@@ -63,7 +63,7 @@ function loadNavbar(basePath = '') {
                       </a>
                     </div>
                     
-                    <!-- Columna 2 -->
+                    <!-- columna 2 -->
                     <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-tecnica">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">computer</i>Asistencia Técnica
@@ -85,7 +85,7 @@ function loadNavbar(basePath = '') {
                       </a>
                     </div>
                     
-                    <!-- Columna 3 -->
+                    <!-- columna 3 -->
                     <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#seguridad-bancaria">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">security</i>Seguridad Bancaria
@@ -107,7 +107,7 @@ function loadNavbar(basePath = '') {
                       </a>
                     </div>
                     
-                    <!-- Columna 4 -->
+                    <!-- columna 4 -->
                     <div class="col-lg-3 mb-3">
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-senior">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">elderly</i>Asistencia Senior
@@ -119,7 +119,7 @@ function loadNavbar(basePath = '') {
                         <i class="material-symbols-rounded me-2 text-sm text-primary">call</i>Centro de Contacto
                       </a>
                       
-                      <!-- Imagen destacada -->
+                      <!-- imagen destacada -->
                       <div class="mt-3 text-center">
                         <img src="../assets/img/cloud-word.png" alt="Soluciones ESCOTEL" class="img-fluid rounded shadow-sm" style="max-height: 120px; object-fit: contain;">
                         <p class="small text-muted mt-2 mb-0">Soluciones 24/7</p>
@@ -130,7 +130,7 @@ function loadNavbar(basePath = '') {
               </div>
             </li>
 
-            <!-- Versión Mobile - Sin Dropdown -->
+            <!-- versión mobile -->
             <li class="nav-item mx-2 d-lg-none" id="soluciones-mobile">
               <a class="nav-link d-flex cursor-pointer align-items-center" href="${basePath}pages/soluciones.html">
                 <i class="material-symbols-rounded opacity-6 me-2 text-md">settings</i>

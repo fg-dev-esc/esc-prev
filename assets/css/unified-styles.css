@@ -725,7 +725,7 @@
 /* Mega Menu Styles */
 .mega-dropdown .dropdown-menu {
   min-width: 800px;
-  left: 0;
+  left: -234px; 
   transform: none;
   border: none;
   box-shadow: 0 10px 40px rgba(0,0,0,.1);
