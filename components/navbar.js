@@ -70,8 +70,8 @@ function loadNavbar(basePath = '') {
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#prevencion-salud">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">health_and_safety</i>Prevención y Salud
                       </a>
-                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-viajes-internacionales">
-                        <i class="material-symbols-rounded me-2 text-sm text-primary">public</i>Asistencia en Viajes
+                      <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#viajes-internacionales">
+                        <i class="material-symbols-rounded me-2 text-sm text-primary">public</i>Viajes Internacionales
                       </a>
                       <a class="dropdown-item d-flex align-items-center" href="${basePath}pages/soluciones.html#asistencia-migrante">
                         <i class="material-symbols-rounded me-2 text-sm text-primary">group</i>Asistencia Migrante
